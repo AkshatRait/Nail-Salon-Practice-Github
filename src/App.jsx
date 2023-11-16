@@ -9,27 +9,21 @@ function App() {
   return (
     <>
       <div>
-        <h1>Welcome to practice App</h1>
-        <p>making changes in the main branch</p>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+            <h1>Simo Add your name in the p tag below: </h1>
+            <p></p>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+      <div>
+            <h1>Massoud Add your name in the p tag below: </h1>
+            <p></p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <div>
+            <h1>Akshat Add your name in the p tag below: </h1>
+            <p></p>
+      </div>
+      <div>
+            <h1>JC Add your name in the p tag below: </h1>
+            <p></p>
+      </div>
     </>
   )
 }
